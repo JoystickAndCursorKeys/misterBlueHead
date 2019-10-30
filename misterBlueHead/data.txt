@@ -1,0 +1,860 @@
+{
+    "connections": [
+        {
+            "question": true,
+            "input_frases": [
+                "null"
+            ],
+            "output_frases": [
+                "'I' don't understand",
+                "'I' did not get that",
+                "What?",
+                "'I' don't know"
+            ],
+            "output_appendixes": [
+                "could you rephrase the question?",
+                "maybe if you reformulate the question, 'I' will understand",
+                "actually 'I' am only a simple script, so please keep it simple.",
+                "any questions that are not in my data storage perhaps could better be asked in person."
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "returnquestion_in_output" ],
+            "output_frases": [
+                "OK",
+                "Great",
+                "Good to know",
+                "Fine"
+            ],
+            "output_appendixes": [
+                "are there any more questions?",
+                "what more do you like to know?",
+                "let's continue"
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "How are you",
+                "How do you feel",
+                "How are you feeling",
+                "How are you doing",
+                "What is up",
+                "What is up"
+            ],
+            "output_frases": [
+                "Fine",
+                "Great",
+                "Feeling good",
+                "Good"
+            ],
+            "output_appendixes": [
+                "thank you. How are you?",
+                "how are you?",
+                "and you?",
+                "and it is nice to meet you",
+                "actually 'I' am only a simple script, and cannot understand anything, or who 'I' am. And 'I' doubt 'I' have feelings.  But usually 'I' answer in order to make people feel more comfortable."
+            ]
+        },
+        {
+            "question": true,
+            "input_choices": [ "unix", "c++", "c", "java", "coding" , "talking" ],
+            "input_frases": [
+                "Are you good at %C",
+                "Are you skilled at %C",
+                "What are your %C skills",
+                "Do you like %C",
+                "Are you interested in %C",
+                "What do you like",
+                "What are you good at"
+            ],
+            "output_frases": [
+                "This feels more like a question that needs to be answered in person",
+                "This type of question is normally reserved for a job interview. 'I' am just a CV-script.",
+                "'I' am interested and skilled in a number of things.  For more details contact Dusty personally"
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_choices": [ "happy", "glad", "excited", "good", "well" , "ok" ],
+            "input_frases": [
+                "Are you %C",
+                "Are you feeling %C",
+                "Do you feel %C"
+            ],
+            "output_frases": [
+                "'I' feel fantastic",
+                "'I' feel great"
+            ],
+            "output_appendixes": [
+                "but then again, it's just a string variable that holds the word \"fantastic\", does that really count?",
+                "what about you?",
+                "of course you just asked a script how \"it\" was feeling.  Maybe you should lie down a while before we continue?"
+            ]
+        },
+     {
+            "question": true,
+            "input_choices": [ "awake", "asleep" ],
+            "input_frases": [
+                "Are you %C",
+                "Are you a %C"
+               
+            ],
+            "output_frases": [
+                "Programs do not sleep. Well, some do, but that is just bad coding"
+            ],
+            "output_appendixes": [
+            ]
+        },
+     {
+            "question": true,
+            "input_choices": [ "him", "dusty", "dusty murray" ],
+            "input_frases": [
+                "Is that picture %C",
+                "Is that photo in the corner %C",
+                "Is that a picture of %C"
+               
+            ],
+            "output_frases": [
+                "Yes it is."
+            ],
+            "output_appendixes": [
+            ]
+        },
+       {
+            "question": true,
+            "input_choices": [ "conscious", "aware", "alive" ],
+            "input_frases": [
+                "Are you %C",
+                "Are you a %C",
+                "Do you feel %C"
+            ],
+            "output_frases": [
+                "Yes, well no, well maybe, what is consciousness?",
+                "Are you?",
+                "'I' have to confess, I have not a clue in the world what consciousness constitutes, but I guarantee you that if you write me a concise technical specification of a consciousness, and give me the hardware that it can run on, I might be able to write you a program that is conscious."
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_choices": [ "stupid", "dumb", "idiot", "simple", "smart", "intelligent", "bright", "clever" ],
+            "input_frases": [
+                "Are you %C",
+                "Are you a %C",
+                "Do you feel %C"
+            ],
+            "output_frases": [
+                "'I' am a simple script",
+                "Since when did scripts start having IQ's?",
+                "'I' have to confess, 'I' am quite 'dumb' really"
+            ],
+            "output_appendixes": [
+                "'I''d like to be smart, but then again how realistic is it that 30kb of data brings true intelligence?",
+                "'I' see you are pondering strong AI, a book on the topic may be interesting. 'I' can recommend \"The Mind's I\" from Hofstadter and Dennett."
+
+            ]
+        },
+        {
+            "question": true,
+            "input_choices": [ "human", "a person" , "real"],
+            "input_frases": [
+                "Are you %C",
+                "Are you a %C",
+                "Do you feel %C"
+            ],
+            "output_frases": [
+                
+                "'I' have to confess, 'I' am a human. Haha.. No, really. I am a script.",
+                "What am I?  To be or not to be human, that is the question."
+            ],
+            "output_appendixes": [
+                "'I' see you are interested in the Turing test.",
+                "Are you human?"
+
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "Who are you",
+                "What are you"
+            ],
+            "output_frases": [
+                "'I' am a interactive script to make the CV more interesting"
+            ],
+            "output_appendixes": [
+                "'I' work on probabilities",
+                "'I' am very simple really, so my answers may baffle you from time to time",
+                "but who are you?"
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "How old are you",
+                "What is your age",
+                "How old is Dusty",
+                "What is Dusty's age"
+
+            ],
+            "output_frases": [
+                "Dusty is 43 years old"
+            ],
+            "output_appendixes": [
+                "he was born in 1971"
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "Where are you from",
+                "Where do you live"
+            ],
+            "output_frases": [
+                "I live in Stockholm, but I originally come from The Netherlands, Groningen."
+            ],
+            "output_appendixes": [
+                "so, I also speak Dutch, and Swedish of course"
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "What are your hobbies?",
+                "What do you do in your free time?"
+            ],
+            "output_frases": [
+                "My hobbies are music, films, books, coding, playing with my 3D printer, AI, hobby robotics, running and floorball"
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "What languages do you speak?",
+                "What languages do you know?",
+                "Do you speak Swedish?",
+                "Do you speak English?",
+                "Do you speak Dutch?"
+            ],
+            "output_frases": [
+                "I speak Swedish, English and Dutch, I read and write Dutch and English. I read Swedish and German."
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_choices": [ "MB", "C", "C++", "Java", "PHP", "Python", "Javascript", "Unix Shell Scripting", "Assembly" ],
+            "input_frases": [
+                "Do you know %C?",
+                "Which programming languages do you know?",
+                "What programming languages do you know?",
+                "What programming languages do have experience with?"
+            ],
+            "output_frases": [
+                "I know MB, C, C++, Java, PHP, Python, Javascript, Unix Shell Scripting, Assembly, and a few of less known programming languages."
+            ],
+            "output_appendixes": [
+                "I think it is trivial to learn new programming languages. To me it is more about the correct mindset for developing software",
+                "besides working in these languages, programming is also a hobby of mine"
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "Do you know Unix?",
+                "What about Unix?",
+                "Are you good at Unix?"
+            ],
+            "output_frases": [
+                "Yes, I have worked inside Unix for quite some time now."
+            ],
+            "output_appendixes": [
+                "I am also quite comfortable in Linux"
+            ]
+        },
+        {
+            "input_choices": [ "is", "are", "do you", "have", "shall" ],
+            "question": true,
+            "input_frases": [
+                "Why %C?"
+            ],
+            "output_frases": [
+                "Why indeed",
+                "I don't really know why",
+                "Maybe we should get back to easier questions?",
+                "'I' am pretty bad at answering why questions, maybe you should contact Dusty directly?"
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "What can you do?"
+            ],
+            "output_frases": [
+                "Dusty can do many things, ask about his work experience, education or what programming languages he knows for example.",
+                "Dusty can do many things, ask about his work experience, education or what languages he knows for example."
+            ],
+            "output_appendixes": [
+                "'I' on the other hand am only a script with 30kb of data, so I can only do some simple pattern matching, and try to fool you into thinking that I answer questions intelligently"
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "Do you know Windows?",
+                "What about Windows?",
+                "Are you good at Windows?"
+            ],
+            "output_frases": [
+                "Yes, I have worked with Windows for quite some time now."
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "Do you know Linux?",
+                "What about Linux?",
+                "Are you good at Linux?"
+            ],
+            "output_frases": [
+                "Yes, I have worked inside Linux for quite some time now"
+            ],
+            "output_appendixes": [
+                "'I' am also quite comfortable in Unix by the way"
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "Which programming areas do you know?",
+                "What programming areas do you know?",
+                "What programming areas do have experience with?"
+            ],
+            "output_frases": [
+                "EDI, B2B, Network, Client/Server, APIs, Translation, IDE development, Migration, QA test framework, Support tools."
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "Which programming areas do you know?",
+                "What programming areas do you know?",
+                "What programming areas do have experience with?"
+            ],
+            "output_frases": [
+                "EDI, B2B, Network, Translation, IDE development, Migration, QA test framework, Support tools."
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "What is your telephone number?",
+                "What is your phone number?",
+                "How can we reach you?",
+                "How can we contact you?",
+                "How can we write you?",
+                "How can we call you?",
+                "What is your email address?"
+            ],
+            "output_frases": [
+                "Dusty's phone number is: +46(0)739 721 403, his email is dustymurray@hotmail.com."
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "Where is your CV",
+                "Is this a CV"
+            ],
+            "output_frases": [
+                "This is a humble attempt to modernize the CV.  Just ask \"me\" questions like: \"What is your work experience?\""
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "How long have you worked with Integration",
+                "How long have you worked with Axway",
+                "How long have you worked with Viewlocity",
+                "How long have you worked with Frontec",
+                "Where did you work"
+            ],
+            "output_frases": [
+                "I have worked since 1999 with Integration",
+                "I have worked since 15 years with Integration"
+            ],
+            "output_appendixes": [
+                "I first worked for Frontec/Viewlocity, and later for Axway",
+                "I started at Frontec/Viewlocity and now I work for Axway",
+                "I did this, while working for 3 companies, Frontec, Viewlocity and Axway."
+
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "How long have you worked with Frontec",
+                "How many years at frontec"
+            ],
+            "output_frases": [
+                "I have worked since 1999 with Frontec, but they became Viewlocity almost directly"
+            ],
+            "output_appendixes": [
+                "I first worked for Frontec/Viewlocity, and later for Axway",
+                "I started at Frontec, and now work for Axway"
+            ]
+        },
+        {
+            "question": true,
+            "input_choices": [ "Viewlocity" ],
+            "input_frases": [
+                "What did you work with in %C",
+                "What roles did you have in %C"
+            ],
+            "output_frases": [
+                "I started in QA and Support. I ended up building their test framework 'GET'.",
+                "I first worked with QA and Support. I ended up building a test framework for Viewlocity's products AMTrix and XIB."
+            ],
+            "output_appendixes": []
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "What did you work with in Axway",
+                "What did you work do in Axway",
+                "What were your responsibilities in Axway"
+            ],
+            "output_frases": [
+                "I had many roles in Axway. I worked in QA, Services, Presales and R&D.",
+                "Mostly services, presales and currently R&D."
+            ],
+            "output_appendixes": []
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "What is your work experience",
+                "What did you work with"
+            ],
+            "output_frases": [
+                "{{table}}{{tr}}{{td width=18% valign=top}}1999-2000 Frontec{{/td}}{{td}}I worked at QA and Support for a brief period of time. This was regarding Frontec's product AMTrix. {{/td}}{{/tr}}{{tr}}{{td}}2000-2003 Viewlocity{{/td}}{{td}}QA, Support and QA Tools architect for both XIB and AMTrix.{{/td}}{{/tr}}{{tr}}{{td}}2003-2015 Axway{{/td}}{{td}}Architect, Consultant, Senior Software Engineer and QA/Support Tools architect for  XIB, AMTrix & B2Bi.{{/td}}{{/tr}}{{/table}} Since 1999 I worked with Frontec untill 2000. Then a company was launched with the name of Viewlocity, later at 2003, this company was bought by Axway.  I  kept working with their range of Integration products.  These products are AMTrix, XIB and B2Bi.  Also I have worked with monitoring products inside Axway such as Sentinel. During this whole time I worked alot with B2B and EDI.  Also I touched many technical topics, and have been working in several roles."
+            ],
+            "output_appendixes": [
+            ]
+        },
+       {
+            "question": true,
+            "input_frases": [
+                "do you have a masters",
+                "do you have a master degree"
+                ],
+            "output_frases": [
+                "No"
+            ],
+            "output_appendixes": [
+                "I only have a batchelors degree"
+            ]
+        },
+       {
+            "question": true,
+            "input_frases": [
+                "do you have a batchelors",
+                "do you have a batchelors degree"
+                ],
+            "output_frases": [
+                "Yes"
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "What is your education",
+                "What education do you have",
+                "What are your certificates",
+                "Where did you go to school"
+            ],
+            "output_frases": [
+                "I graduated from the following schools:{{table}}{{tr}}{{td width=18% valign=top}}1994-1999{{/td}}{{td valign=top}} Bachelor of Computer Science, \"Hanzehogeschool, Hogeschool te Groningen\", Groningen, The Netherlands.{{/td}}{{/tr}}{{tr}}{{td valign=top}}1990-1994{{/td}}{{td valign=top}}Electronic engineering,MTS Eemsmond College, Appingedam,The Netherlands.{{/td}}{{/tr}}{{tr}}{{td valign=top}}2000-2010{{/td}}{{td valign=top}}Other miscellaneous IT related studies (UML, AI).{{/td}}{{/tr}}{{/table}}"
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "What kind of work did you do",
+                "What type of work did you do",
+                "What type of job did you do",
+                "What role did you have",
+                "What roles did you have",
+                "What are the things you worked with"
+            ],
+            "output_frases": [
+                "Architect, PSO Consultant, Senior Software Engineer, and earlier QA, QA Tools design and development, Support, Support Tools designer and developer."
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "How long have you worked with Viewlocity"
+            ],
+            "output_frases": [
+                "3 years"
+            ],
+            "output_appendixes": [
+                "from 1999 until 2002/2003",
+                "so only a few years, until Axway bought Viewlocity"
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "What is better, services or R&D",
+                "What is better, services or presales",
+                "Which do you like better services or R&D",
+                "Do you prefer services over R&D",
+                "Do you like services",
+                "Do you like R&D"
+            ],
+            "output_frases": [
+                "It depends, I like both services and R&D, but I like to code."
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "question": true,
+            "input_frases": [
+                "What is better QA or R&D",
+                "What do you like better QA or R&D",
+                "Do you prefer QA over R&D"
+            ],
+            "output_frases": [
+                "I prefer R&D, or services"
+            ],
+            "output_appendixes": [
+            ]
+        }
+        ,
+        {
+            "understood": false,
+            "question": false,
+            "input_frases": [
+                "null"
+            ],
+            "output_frases": [
+                "'I' don't understand",
+                "'I' did not get that",
+                "What?",
+                "'I' don't know what you want me to do"
+            ],
+            "output_appendixes": [
+                "could you repeat that?",
+                "maybe if you reformulate that frase, 'I' will understand.",
+                "actually 'I' am only a simple script, so please keep it simple.",
+                "any topics that are not in my data storage maybe better discussed in person."
+            ]
+        },
+        {
+            "understood": false,
+            "question": false,
+            "input_frases": [
+                "single_word_sentence"
+            ],
+            "output_frases": [
+                "'I' don't understand single word sentences very well",
+                "Try to type a longer sentence",
+                "'I' am better at answering questions"
+            ],
+            "output_appendixes": [
+                "please keep in mind that I am not a human"
+            ]
+        },
+        {
+            "understood": false,
+            "question": false,
+            "input_frases": [
+                "duplicate_inputs"
+            ],
+            "output_frases": [
+                "Did we not just discuss this?",
+                "There is no need to repeat yourself.",
+                "Why??, did you not just say that?",
+                "This feels a bit repetitive",
+                "...?"
+            ],
+            "output_appendixes": [
+                "if 'I' don't understand the first time, it's probably not in my data store, and a personal call may be an option?",
+                "try saying it in a different way",
+                "sorry, repeating things to me, won't make my 30kb knowledge based text file any larger"
+            ]
+        },
+        {
+            "understood": false,
+            "question": false,
+            "input_frases": [
+                "no_word_sentence"
+            ],
+            "output_frases": [
+                "'I' don't understand very well, when you say nothing",
+                "Silence?",
+                "'I' am not a fan of awkward silences."
+            ],
+            "output_appendixes": [
+                "please keep in mind that 'I' cannot see you"
+            ]
+        },
+        {
+            "understood": true,
+            "question": false,
+            "input_frases": [
+                "Hello",
+                "Hi",
+                "Hi there",
+                "Bonjour",
+                "Good afternoon",
+                "Hej",
+                "Hallo",
+                "Good evening",
+                "Good afternoon"
+            ],
+            "output_frases": [
+                "Hello",
+                "Hi",
+                "Hi there",
+                "Bonjour",
+                "Good afternoon"
+            ],
+            "output_appendixes": [
+                "how are you?",
+                "how are you doing?",
+                "nice to meet you."
+            ]
+        },
+        {
+            "understood": true,
+            "question": false,
+            "input_frases": [
+                "Bye",
+                "Good Bye",
+                "See you later",
+                "Bye for now"
+            ],
+            "output_frases": [
+                "Thank you, and good bye",
+                "It was a pleasure exchanging data with you",
+                "Good bye",
+                "Hej då"
+            ],
+            "output_appendixes": [
+                "let's talk again soon",
+                "have a nice rest of the day"
+            ]
+        },
+        {
+            "understood": true,
+            "question": false,
+            "input_frases": [
+                "Thanks",
+                "Thank you",
+                "Ok"
+            ],
+            "output_frases": [
+                "No problem"
+            ],
+            "output_appendixes": [
+            ]
+        },
+       {
+            "understood": true,
+            "question": false,
+            "input_frases": [
+                "Help",
+                "How does this work",
+                "What do I do",
+                "What am I supposed to do"
+            ],
+            "output_frases": [
+                "Hi, this is an interactive CV. Just ask questions in natural language",
+                "Just ask any question about Dusty in natural language"
+            ],
+            "output_appendixes": [
+                "and 'I' will try to answer",
+                "and if 'I' know the answer, 'I' will tell you"
+            ]
+        },
+        {
+            "understood": true,
+            "question": false,
+            "input_frases": [
+                "Sorry",
+                "I am sorry",
+                "I apologize",
+                "Excuse me"
+            ],
+            "output_frases": [
+                "No problem",
+                "That is ok",
+                "Nothing to worry about",
+                "'I' 'understand'",
+                "Ok, let's continue"
+            ],
+            "output_appendixes": [
+            ]
+        },
+        {
+            "understood": true,
+            "question": false,
+            "input_frases": [
+                "I want to see the CV",
+                "I like to see the CV",
+                "Show me your CV"
+            ],
+            "output_frases": [
+                "I am here to provide all the details you normally find in an old fashioned CV.",
+                "I was programmed to fully cooperate regarding any questions on Dusty and his previous work experience."
+            ],
+            "output_appendixes": [
+                
+            ]
+        },
+        {
+            "understood": true,
+            "question": true,
+            "input_frases": [
+                "Who is Dusty",
+                "Are you Dusty"
+            ],
+            "output_frases": [
+                "Dusty Wilhelm Murray is a senior software engineer, PSO consultant, architect, ex-support consultant and ex-test tool developer.",
+                "Dusty Wilhelm Murray is the person who this CV is all about."
+            ],
+            "output_appendixes": [
+                "if you ask me, he is a great guy",
+                "he is the guy in the picture"
+            ]
+        },
+        {
+            "understood": true,
+            "question": true,
+            "input_frases": [
+                "Where is Dusty"
+            ],
+            "output_frases": [
+                "Dusty is probably at home or in the office"
+            ],
+            "output_appendixes": [
+                "he might also be driving a car",
+                "if you give him a call, you can find out for sure"
+            ]
+        },
+       {
+            "understood": true,
+            "question": false,
+            "input_frases": [
+                "I need to see the CV",
+                "I really need to see the CV",
+                "I really want to see the CV",
+                "I want to print the CV",
+                "Show me the CV please",
+                "Show me the CV now"
+            ],
+            "output_frases": [
+                "Ok. But please think before printing, as printing is really is a waste of paper, but if you insist, my CV can be downloaded: %CV"
+            ],
+            "output_appendixes": [              
+            ]
+        },
+       {
+            "understood": true,
+            "question": false,
+            "input_frases": [
+                "Show me all details.",
+                "Tell me everything.",
+                "I want to see the complete CV"
+            ],
+            "output_frases": [
+                "Ok. In that case the complete CV can be downloaded: %CV"
+            ],
+            "output_appendixes": [              
+            ]
+        },
+       {
+            "understood": true,
+            "question": false,
+            "input_frases": [
+                "Go west",
+                "Go east",
+                "Go south",
+                "Go north"
+            ],
+            "output_frases": [
+                "Ok.",
+                "Really?",
+                "Look, this is a job interview, let's focus.",
+                "'I' enjoy playing adventures as much as the next person, but 'I' am NOT an adventure.",
+                "There is a large troll.",
+                "You see another job applicant.",
+                "I am tired.",
+                "You see a hobit.",
+                "There is a treasure chest.",
+                "There is a door.",
+                "You get shot by a klingon, if you only stayed out of klingon space as the captain had ordered."
+            ],
+            "output_appendixes": [              
+            ]
+        },
+       {
+            "understood": true,
+            "question": false,
+            "input_frases": [
+                "Go up"
+            ],
+            "output_frases": [
+                "Where did my private airplane go, 'I' really thought 'I' had parked it right here.",
+                "Up and away.",
+                "Which floor?",
+                "I need a rope to climb."
+            ],
+            "output_appendixes": [              
+            ]
+        },
+       {
+            "understood": true,
+            "question": false,
+            "input_frases": [
+                "Go down"
+            ],
+            "output_frases": [
+                "Stairs or elevator?",
+                "I need a trampoline to jump down to.",
+                "Down it is."
+            ],
+            "output_appendixes": [              
+            ]
+        }
+    ]
+}
